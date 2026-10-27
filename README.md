@@ -25,7 +25,8 @@ My defining strength is the ability to **step into unfamiliar technologies, deco
 A decade-long proof point of mastering unfamiliar domains across both physical hardware and real-time software:
 
 * **End-to-End System Design:** 10+ years mentoring and engineering in FIRST Robotics (Team 3160). Designing complete mechanical, pneumatic, and electrical subsystems, CAN bus architectures, sensor integration, and motor control loops.
-* **Production Python Software:** Authored robot control architectures in Python (RobotPy, NumPy), implementing swerve drive kinematics, PID closed-loop control, state machines, and computer vision tracking (AprilTags via PhotonVision).
+* **Production Python Software:** Authored robot control architectures in Python (RobotPy, NumPy), implementing swerve drive kinematics, PID closed-loop control, state machines, and camera-based computer vision (AprilTags fiducials and machine learning object detection models).
+* **Hardware-in-the-Loop (HIL) Subsystem Testing:** Executed hardware-in-the-loop (HIL) testing on physical robot subsystems (actuators, motor controllers, and sensor arrays) to validate edge software behavior and control loops before full robot assembly.
 * **Open-Source Modularity ([`FROGlib`](https://github.com/celttechie/FROGlib)):** Created an installable Python hardware abstraction library (`pyproject.toml`) that modularizes swerve kinematics, motor controller wrappers, and vision algorithms across competition seasons.
 * **High-Pressure Tournament Diagnostics:** Rapid, methodical root-cause debugging under tight tournament timeframes—isolating complex electrical noise, CAN bus faults, sensor drift, and code regressions in minutes.
 
@@ -139,7 +140,8 @@ A decade-long proof point of mastering unfamiliar domains across both physical h
 - **Enterprise FedRAMP ATO Governance (Cisco Systems):** Directed technical response defending HHS PMO FedRAMP Moderate Authorization to Operate across 6,000+ nodes during enterprise zero-day incidents (Log4j).
 - **Vulnerability Data Platform Architecture:** Architected custom PostgreSQL, FastAPI, and Tableau data pipelines to automate compliance extraction across heterogeneous fleets, replacing manual audits.
 - **Enterprise Compute & Linux:** Decades administering enterprise compute (Cisco UCS, x86 bare-metal), virtualization (KVM/Libvirt, ESXi), configuration management (Ansible, SaltStack), and identity (FreeIPA/HBAC).
-- **Foundational Systems Engineering:** Rooted in airborne radar systems maintenance in the U.S. Air Force, low-level disk diagnostic engineering, and mission-critical uptime.
+- **QA Department Leadership & Systems Integration (StorageSoft / Phoenix Tech):** Managed QA testing and technical support departments, designed heterogeneous multi-platform test labs, and acted as systems integration engineer ensuring interoperability with enterprise suites (Microsoft SMS, CA Unicenter).
+- **Foundational Systems Engineering:** Rooted in airborne radar systems maintenance in the U.S. Air Force (AWACS), low-level disk diagnostic engineering, and mission-critical uptime.
 
 ---
 
@@ -148,8 +150,8 @@ A decade-long proof point of mastering unfamiliar domains across both physical h
 ```
 Robotics & Embedded Software (10+ Years)
 ────────────────────────────────────────────────────────────────────────────────
-Control & Software       ── Python (RobotPy, NumPy) • FROGlib Hardware Abstraction • PID Loops • State Machines
-Vision & Sensors         ── AprilTag Vision (PhotonVision) • IMU Sensor Fusion • CAN Bus Networks • Pneumatics
+Control & Software       ── Python (RobotPy, NumPy) • FROGlib Abstraction • PID Loops • State Machines • HIL Subsystem Testing
+Vision & Sensors         ── AprilTag Vision • ML Object Detection Models • IMU Sensor Fusion • CAN Bus Networks • Pneumatics
 Mechanical & Electrical  ── Swerve Drive Kinematics • Motor Controllers • Circuit Wiring • Rapid Failure Isolation
 
 Enterprise Foundation (30 Years)
@@ -157,14 +159,14 @@ Enterprise Foundation (30 Years)
 Systems Engineering      ── Bare-Metal Compute • Linux Systems Administration (RHEL, Ubuntu) • KVM/Libvirt • Cisco UCS
 DevSecOps & Compliance   ── FedRAMP Moderate Governance • DISA STIG Automation • Qualys API • FreeIPA / HBAC
 Automation & Data        ── Python (FastAPI, Pandas, SQLAlchemy) • PostgreSQL • Bash Automation • Ansible • SaltStack
-Methodology & Quality    ── Systems Architecture • Root-Cause Diagnostics • Failure Mode Analysis • QA Automation
+Methodology & Quality    ── Systems Architecture • Root-Cause Diagnostics • Failure Mode Analysis • QA Automation • Team Leadership
 
 Applied R&D & Rapid Technology Immersion (Recent Research)
 ────────────────────────────────────────────────────────────────────────────────
 Cloud-Native Substrates  ── OpenShift (SNO 4.16+) • Talos Linux • Kubernetes • OpenTofu • Cilium (eBPF)
 Air-Gapped & Sovereign   ── Defense Unicorns Zarf • UDS Bundles • Lula (OSCAL Continuous Compliance)
 AI Workload Exploration  ── NVIDIA GPU Operator (CDI) • VFIO Passthrough • vLLM Inference Serving • LiteLLM
-Edge SDN & Telemetry     ── Netlink Dynamic Routing • WireGuard • FRRouting • MAVLink • ROS2 / DDS
+Edge SDN & Telemetry     ── Netlink Dynamic Routing • WireGuard • FRRouting • MAVLink • ROS2 / DDS • Low-SWaP (OrangePi 5)
 ```
 
 ---
