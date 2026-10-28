@@ -2,10 +2,19 @@
 ### Solutions Architecture & Technical Leadership | Systems Automation, Robotics Design & Subsystem Testing
 
 <p align="left">
-  <a href="https://celttechie.github.io/"><img src="https://img.shields.io/badge/Portfolio-celttechie.github.io-0284c7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/bjarrett"><img src="https://img.shields.io/badge/LinkedIn-bjarrett-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://celttechie.github.io/articles/technical_execution_and_rapid_learning/"><img src="https://img.shields.io/badge/Article-Technical%20Execution%20&%20Rapid%20Learning-4f46e5?style=for-the-badge&logo=markdown&logoColor=white" alt="Technical Execution" /></a>
-  <a href="https://celttechie.github.io/articles/from_bare_metal_to_vllm_openshift_ai/"><img src="https://img.shields.io/badge/Lab%20Notes-Bare%20Metal%20to%20vLLM-e11d48?style=for-the-badge&logo=readme&logoColor=white" alt="Bare Metal to vLLM" /></a>
+  <a href="https://celttechie.github.io/"><img src="https://img.shields.io/badge/Portfolio-celttechie.github.io-0284c7?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/bjarrett"><img src="https://img.shields.io/badge/LinkedIn-bjarrett-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://celttechie.github.io/articles/technical_execution_and_rapid_learning/"><img src="https://img.shields.io/badge/Article-Rapid%20Learning%20&%20Execution-4f46e5?style=flat-square&logo=markdown&logoColor=white" alt="Technical Execution" /></a>
+  <a href="https://celttechie.github.io/articles/from_bare_metal_to_vllm_openshift_ai/"><img src="https://img.shields.io/badge/Deep%20Dive-Bare%20Metal%20to%20vLLM-e11d48?style=flat-square&logo=readme&logoColor=white" alt="Bare Metal to vLLM" /></a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/celttechie/FROGlib"><img src="https://img.shields.io/badge/FROGlib-Swerve%20Kinematics%20&%20Vision-22c55e?style=flat-square&logo=python&logoColor=white" alt="FROGlib" /></a>
+  <a href="https://github.com/celttechie/openshift-ai-infrastructure"><img src="https://img.shields.io/badge/OpenShift%20AI-Bare%20Metal%20VFIO%20%7C%20vLLM-ee0000?style=flat-square&logo=redhatopenshift&logoColor=white" alt="OpenShift AI" /></a>
+  <a href="https://github.com/celttechie/tactical-edge-gateway"><img src="https://img.shields.io/badge/Tactical%20Gateway-MAVLink%20%2F%20ROS2%20→%20TAK%20CoT-f59e0b?style=flat-square&logo=ros&logoColor=white" alt="Tactical Gateway" /></a>
+  <a href="https://github.com/celttechie/openshift-sno-lab"><img src="https://img.shields.io/badge/SNO%20Substrate-OpenTofu%20%7C%20%3C10ms%20etcd-6366f1?style=flat-square&logo=opentofu&logoColor=white" alt="SNO Lab" /></a>
+  <a href="https://github.com/celttechie/tactical-edge-sdn"><img src="https://img.shields.io/badge/Tactical%20SDN-Netlink%20Dynamic%20Routing-0284c7?style=flat-square&logo=linux&logoColor=black" alt="Tactical SDN" /></a>
+  <a href="https://github.com/celttechie/zarf-uds-lula-datalakehouse"><img src="https://img.shields.io/badge/cATO-Lula%20(OSCAL)%20%7C%20Zarf-10b981?style=flat-square" alt="Compliance as Code" /></a>
 </p>
 
 ---
