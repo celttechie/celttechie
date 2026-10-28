@@ -1,5 +1,5 @@
 # Brian Jarrett
-### Solutions Architecture & Technical Leadership | Systems Engineering & Robotics
+### Solutions Architecture & Technical Leadership | Systems Automation, Robotics Design & Subsystem Testing
 
 <p align="left">
   <a href="https://celttechie.github.io/"><img src="https://img.shields.io/badge/Portfolio-celttechie.github.io-0284c7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
@@ -12,22 +12,22 @@
 
 ### 🔭 The Core Differentiator: Mastering Unfamiliar Technology
 
-I am a hands-on Systems Architect and Technical Leader with a 30-year foundation spanning enterprise compute, Linux systems administration, and federal compliance, alongside **over a decade designing competitive robotic systems and authoring Python control software**.
+I am a hands-on Systems Architect and Technical Leader with a 30-year foundation spanning enterprise compute, Linux systems administration, and federal compliance, alongside **over a decade designing competitive robotic systems and authoring real-time Python software controlling swerve drive kinematics, articulated mechanisms, and vision targeting**.
 
 My defining strength is the ability to **step into unfamiliar technologies, deconstruct them from first principles, and rapidly turn complex problems into reliable, working solutions**—whether that means fabricating and wiring a real-time embedded robot, defending a 6,000-node federal ATO, or standing up sovereign AI infrastructure from bare metal.
 
-> *"Understand deeply from the ground up, eliminate guesswork with source data, and turn unfamiliar complexity into clean, deterministic execution."*
+> *"Understand deeply from the ground up, approach platforms with rigorous testing and automation discipline, and turn unfamiliar complexity into clean, deterministic execution."*
 
 ---
 
-### 🤖 10+ Years of Robotics: Hardware Systems & Python Software
+### 🤖 Robotics Design, Mechanism Automation & Subsystem Testing (2016 – Present)
 
 A decade-long proof point of mastering unfamiliar domains across both physical hardware and real-time software:
 
-* **End-to-End System Design:** 10+ years mentoring and engineering in FIRST Robotics (Team 3160). Designing complete mechanical, pneumatic, and electrical subsystems, CAN bus architectures, sensor integration, and motor control loops.
-* **Production Python Software:** Authored robot control architectures in Python (RobotPy, NumPy), implementing swerve drive kinematics, PID closed-loop control, state machines, and camera-based computer vision (AprilTags fiducials and machine learning object detection models).
-* **Hardware-in-the-Loop (HIL) Subsystem Testing:** Executed hardware-in-the-loop (HIL) testing on physical robot subsystems (actuators, motor controllers, and sensor arrays) to validate edge software behavior and control loops before full robot assembly.
-* **Open-Source Modularity ([`FROGlib`](https://github.com/celttechie/FROGlib)):** Created an installable Python hardware abstraction library (`pyproject.toml`) that modularizes swerve kinematics, motor controller wrappers, and vision algorithms across competition seasons.
+* **End-to-End System Design & Mechanism Automation:** 10+ years mentoring and engineering in FIRST Robotics (Team 3160). Designing complete mechanical, pneumatic, and electrical subsystems, CAN bus architectures, sensor integration, and high-torque motor control loops.
+* **Production Python Software:** Authored robot control architectures in Python (RobotPy, NumPy), implementing swerve drive kinematics, closed-loop PID control, state machines, and camera-based computer vision (AprilTag fiducials and machine learning object detection).
+* **Hardware-in-the-Loop (HIL) Subsystem Testing:** Executed hardware-in-the-loop (HIL) testing on physical robot subsystems (actuators, motor controllers, and sensor arrays) to validate edge software behavior and control loops before full robot integration.
+* **Open-Source Modularity ([`FROGlib`](https://github.com/celttechie/FROGlib)):** Created and maintain an installable Python hardware abstraction library (`pyproject.toml`) that modularizes swerve kinematics, motor controller wrappers, and vision targeting across competition seasons.
 * **High-Pressure Tournament Diagnostics:** Rapid, methodical root-cause debugging under tight tournament timeframes—isolating complex electrical noise, CAN bus faults, sensor drift, and code regressions in minutes.
 
 ---
@@ -148,9 +148,9 @@ A decade-long proof point of mastering unfamiliar domains across both physical h
 ### 🛠️ Capabilities & Technical Toolchain
 
 ```
-Robotics & Embedded Software (10+ Years)
+Robotics Design & Subsystem Testing (2016 – Present)
 ────────────────────────────────────────────────────────────────────────────────
-Control & Software       ── Python (RobotPy, NumPy) • FROGlib Abstraction • PID Loops • State Machines • HIL Subsystem Testing
+Control & Software       ── Python (RobotPy, NumPy) • FROGlib Kinematics • Mechanism Automation • PID Loops • HIL Testing
 Vision & Sensors         ── AprilTag Vision • ML Object Detection Models • IMU Sensor Fusion • CAN Bus Networks • Pneumatics
 Mechanical & Electrical  ── Swerve Drive Kinematics • Motor Controllers • Circuit Wiring • Rapid Failure Isolation
 
