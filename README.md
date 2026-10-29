@@ -9,7 +9,7 @@
 </p>
 
 <p align="left">
-  <a href="https://github.com/celttechie/FROGlib"><img src="https://img.shields.io/badge/FROGlib-Swerve%20Kinematics%20&%20Vision-22c55e?style=flat-square&logo=python&logoColor=white" alt="FROGlib" /></a>
+  <a href="https://github.com/FROG3160/FROGLib"><img src="https://img.shields.io/badge/FROGlib-Swerve%20Kinematics%20&%20Vision-22c55e?style=flat-square&logo=python&logoColor=white" alt="FROGlib" /></a>
   <a href="https://github.com/celttechie/openshift-ai-infrastructure"><img src="https://img.shields.io/badge/OpenShift%20AI-Bare%20Metal%20VFIO%20%7C%20vLLM-ee0000?style=flat-square&logo=redhatopenshift&logoColor=white" alt="OpenShift AI" /></a>
   <a href="https://github.com/celttechie/tactical-edge-gateway"><img src="https://img.shields.io/badge/Tactical%20Gateway-MAVLink%20%2F%20ROS2%20→%20TAK%20CoT-f59e0b?style=flat-square&logo=ros&logoColor=white" alt="Tactical Gateway" /></a>
   <a href="https://github.com/celttechie/openshift-sno-lab"><img src="https://img.shields.io/badge/SNO%20Substrate-OpenTofu%20%7C%20%3C10ms%20etcd-6366f1?style=flat-square&logo=opentofu&logoColor=white" alt="SNO Lab" /></a>
@@ -36,7 +36,7 @@ A decade-long proof point of mastering unfamiliar domains across both physical h
 * **End-to-End System Design & Mechanism Automation:** 10+ years mentoring and engineering in FIRST Robotics (Team 3160). Designing complete mechanical, pneumatic, and electrical subsystems, CAN bus architectures, sensor integration, and high-torque motor control loops.
 * **Production Python Software:** Authored robot control architectures in Python (RobotPy, NumPy), implementing swerve drive kinematics, closed-loop PID control, state machines, and camera-based computer vision (AprilTag fiducials and machine learning object detection).
 * **Hardware-in-the-Loop (HIL) Subsystem Testing:** Executed hardware-in-the-loop (HIL) testing on physical robot subsystems (actuators, motor controllers, and sensor arrays) to validate edge software behavior and control loops before full robot integration.
-* **Open-Source Modularity ([`FROGlib`](https://github.com/celttechie/FROGlib)):** Created and maintain an installable Python hardware abstraction library (`pyproject.toml`) that modularizes swerve kinematics, motor controller wrappers, and vision targeting across competition seasons.
+* **Open-Source Modularity ([`FROGlib`](https://github.com/FROG3160/FROGLib)):** Created and maintain an installable Python hardware abstraction library (`pyproject.toml`) that modularizes swerve kinematics, motor controller wrappers, and vision targeting across competition seasons.
 * **High-Pressure Tournament Diagnostics:** Rapid, methodical root-cause debugging under tight tournament timeframes—isolating complex electrical noise, CAN bus faults, sensor drift, and code regressions in minutes.
 
 ---
