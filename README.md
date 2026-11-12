@@ -9,6 +9,8 @@
 </p>
 
 <p align="left">
+  <a href="https://github.com/celttechie/uds-vm-operator"><img src="https://img.shields.io/badge/UDS%20VM%20Operator-KubeVirt%20%7C%20CDI%20Reference-0284c7?style=flat-square&logo=kubernetes&logoColor=white" alt="UDS VM Operator" /></a>
+  <a href="https://github.com/kubevirt/containerized-data-importer/pull/4340"><img src="https://img.shields.io/badge/Upstream%20CDI%20PR-%234340%20Under%20Review-f97316?style=flat-square&logo=git&logoColor=white" alt="Upstream CDI PR" /></a>
   <a href="https://github.com/FROG3160/FROGLib"><img src="https://img.shields.io/badge/FROGlib-Swerve%20Kinematics%20&%20Vision-22c55e?style=flat-square&logo=python&logoColor=white" alt="FROGlib" /></a>
   <a href="https://github.com/celttechie/openshift-ai-infrastructure"><img src="https://img.shields.io/badge/OpenShift%20AI-Bare%20Metal%20VFIO%20%7C%20vLLM-ee0000?style=flat-square&logo=redhatopenshift&logoColor=white" alt="OpenShift AI" /></a>
   <a href="https://github.com/celttechie/tactical-edge-gateway"><img src="https://img.shields.io/badge/Tactical%20Gateway-MAVLink%20%2F%20ROS2%20→%20TAK%20CoT-f59e0b?style=flat-square&logo=ros&logoColor=white" alt="Tactical Gateway" /></a>
@@ -21,23 +23,11 @@
 
 ### 🔭 The Core Differentiator: Mastering Unfamiliar Technology
 
-I am a hands-on Systems Architect and Technical Leader with a 30-year foundation spanning enterprise compute, Linux systems administration, and federal compliance, alongside **over a decade designing competitive robotic systems and authoring real-time Python software controlling swerve drive kinematics, articulated mechanisms, and vision targeting**.
+I am a hands-on Systems Architect and Technical Leader with a **15+ year foundation spanning enterprise virtualization & hypervisors (KVM, QEMU, VMware ESXi, OpenStack), bare-metal compute, distributed block storage (Ceph), and federal compliance (FedRAMP Moderate / DoD IL5)**, alongside over a decade mentoring and developing competitive robotic systems in real-time Python.
 
-My defining strength is the ability to **step into unfamiliar technologies, deconstruct them from first principles, and rapidly turn complex problems into reliable, working solutions**—whether that means fabricating and wiring a real-time embedded robot, defending a 6,000-node federal ATO, or standing up sovereign AI infrastructure from bare metal.
+My defining strength is the ability to **step into unfamiliar technologies, deconstruct them from first principles, and rapidly turn complex problems into reliable, working solutions**—whether that means contributing upstream features to KubeVirt, defending a 6,000-node federal ATO under strict deadlines, or fabricating and programming an autonomous robot.
 
 > *"Understand deeply from the ground up, approach platforms with rigorous testing and automation discipline, and turn unfamiliar complexity into clean, deterministic execution."*
-
----
-
-### 🤖 Robotics Design, Mechanism Automation & Subsystem Testing (2016 – Present)
-
-A decade-long proof point of mastering unfamiliar domains across both physical hardware and real-time software:
-
-* **End-to-End System Design & Mechanism Automation:** 10+ years mentoring and engineering in FIRST Robotics (Team 3160). Designing complete mechanical, pneumatic, and electrical subsystems, CAN bus architectures, sensor integration, and high-torque motor control loops.
-* **Production Python Software:** Authored robot control architectures in Python (RobotPy, NumPy), implementing swerve drive kinematics, closed-loop PID control, state machines, and camera-based computer vision (AprilTag fiducials and machine learning object detection).
-* **Hardware-in-the-Loop (HIL) Subsystem Testing:** Executed hardware-in-the-loop (HIL) testing on physical robot subsystems (actuators, motor controllers, and sensor arrays) to validate edge software behavior and control loops before full robot integration.
-* **Open-Source Modularity ([`FROGlib`](https://github.com/FROG3160/FROGLib)):** Created and maintain an installable Python hardware abstraction library (`pyproject.toml`) that modularizes swerve kinematics, motor controller wrappers, and vision targeting across competition seasons.
-* **High-Pressure Tournament Diagnostics:** Rapid, methodical root-cause debugging under tight tournament timeframes—isolating complex electrical noise, CAN bus faults, sensor drift, and code regressions in minutes.
 
 ---
 
@@ -47,6 +37,24 @@ A decade-long proof point of mastering unfamiliar domains across both physical h
 > The projects below represent intensive hands-on research and prototyping undertaken over the past several months. Rather than claiming decades of specialization in AI or Kubernetes, these labs demonstrate **how quickly I can enter an unfamiliar technology ecosystem, evaluate its core mechanics, author Architecture Decision Records (ADRs), and build verifiable, production-style reference platforms.**
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🚀 <a href="https://github.com/celttechie/uds-vm-operator">uds-vm-operator</a> &amp; Upstream KubeVirt CDI Contribution</h3>
+      <p><b>Air-gap reference operator &amp; upstream KubeVirt Containerized Data Importer (CDI) feature.</b></p>
+      <ul>
+        <li><b>Upstream Contribution (<a href="https://github.com/kubevirt/containerized-data-importer/pull/4340">CDI PR #4340</a>):</b> Authored upstream pull request adding optional cryptographic checksum validation (<code>algorithm:hash</code>) for DataVolume uploads (<a href="https://github.com/kubevirt/containerized-data-importer/issues/4104">CDI Issue #4104</a>) to secure air-gapped image delivery.</li>
+        <li><b>Two-Stage Operator Engineering:</b> Prototyped reconciliation algorithms in Python (<code>kopf</code>) for rapid cluster validation, then directed implementation into a compiled Go operator (<code>controller-runtime</code>) and CLI (<code>uds-vmctl</code>).</li>
+        <li><b>Air-Gap &amp; Compliance Hardening:</b> Packaged as an offline Defense Unicorns <b>Zarf</b> bundle, validated against NIST SP 800-53 controls using <b>Lula (OSCAL)</b>, and tested on live nested Libvirt/QEMU/KVM bare metal.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Research_Lab-KubeVirt_VMs-0284c7?style=flat-square" />
+        <img src="https://img.shields.io/badge/Upstream_PR-%234340%20(Under_Review)-f97316?style=flat-square" />
+        <img src="https://img.shields.io/badge/Zarf-0F172A?style=flat-square" />
+        <img src="https://img.shields.io/badge/Lula_OSCAL-10B981?style=flat-square" />
+        <img src="https://img.shields.io/badge/Nested_KVM-F1502F?style=flat-square" />
+      </p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🧠 <a href="https://github.com/celttechie/openshift-ai-infrastructure">openshift-ai-infrastructure</a></h3>
@@ -144,13 +152,25 @@ A decade-long proof point of mastering unfamiliar domains across both physical h
 
 ---
 
-### 🏛️ 30-Year Enterprise Systems Foundation
+### 🏛️ Enterprise Systems & Federal Compliance Foundation (15+ Years)
 
 - **Enterprise FedRAMP ATO Governance (Cisco Systems):** Directed technical response defending HHS PMO FedRAMP Moderate Authorization to Operate across 6,000+ nodes during enterprise zero-day incidents (Log4j).
 - **Vulnerability Data Platform Architecture:** Architected custom PostgreSQL, FastAPI, and Tableau data pipelines to automate compliance extraction across heterogeneous fleets, replacing manual audits.
-- **Enterprise Compute & Linux:** Decades administering enterprise compute (Cisco UCS, x86 bare-metal), virtualization (KVM/Libvirt, ESXi), configuration management (Ansible, SaltStack), and identity (FreeIPA/HBAC).
+- **Enterprise Compute, Virtualization & Storage:** Over 15 years administering bare-metal compute (Cisco UCS), hypervisors (KVM/Libvirt, VMware ESXi, OpenStack Nova), Ceph distributed block storage, and configuration management (Ansible, SaltStack, Puppet).
 - **QA Department Leadership & Systems Integration (StorageSoft / Phoenix Tech):** Managed QA testing and technical support departments, designed heterogeneous multi-platform test labs, and acted as systems integration engineer ensuring interoperability with enterprise suites (Microsoft SMS, CA Unicenter).
 - **Foundational Systems Engineering:** Rooted in airborne radar systems maintenance in the U.S. Air Force (AWACS), low-level disk diagnostic engineering, and mission-critical uptime.
+
+---
+
+### 🤖 Robotics Design, Mechanism Automation & Subsystem Testing (10+ Years)
+
+A decade-long proof point of mastering unfamiliar domains across both physical hardware and real-time software:
+
+* **End-to-End System Design & Mechanism Automation:** 10+ years mentoring and engineering in FIRST Robotics (Team 3160). Designing complete mechanical, pneumatic, and electrical subsystems, CAN bus architectures, sensor integration, and high-torque motor control loops.
+* **Production Python Software:** Authored robot control architectures in Python (RobotPy, NumPy), implementing swerve drive kinematics, closed-loop PID control, state machines, and camera-based computer vision (AprilTag fiducials and machine learning object detection).
+* **Hardware-in-the-Loop (HIL) Subsystem Testing:** Executed hardware-in-the-loop (HIL) testing on physical robot subsystems (actuators, motor controllers, and sensor arrays) to validate edge software behavior and control loops before full robot integration.
+* **Open-Source Modularity ([`FROGlib`](https://github.com/FROG3160/FROGLib)):** Created and maintain an installable Python hardware abstraction library (`pyproject.toml`) that modularizes swerve kinematics, motor controller wrappers, and vision targeting across competition seasons.
+* **High-Pressure Tournament Diagnostics:** Rapid, methodical root-cause debugging under tight tournament timeframes—isolating complex electrical noise, CAN bus faults, sensor drift, and code regressions in minutes.
 
 ---
 
@@ -163,7 +183,7 @@ Control & Software       ── Python (RobotPy, NumPy) • FROGlib Kinematics �
 Vision & Sensors         ── AprilTag Vision • ML Object Detection Models • IMU Sensor Fusion • CAN Bus Networks • Pneumatics
 Mechanical & Electrical  ── Swerve Drive Kinematics • Motor Controllers • Circuit Wiring • Rapid Failure Isolation
 
-Enterprise Foundation (30 Years)
+Enterprise Foundation (15+ Years)
 ────────────────────────────────────────────────────────────────────────────────
 Systems Engineering      ── Bare-Metal Compute • Linux Systems Administration (RHEL, Ubuntu) • KVM/Libvirt • Cisco UCS
 DevSecOps & Compliance   ── FedRAMP Moderate Governance • DISA STIG Automation • Qualys API • FreeIPA / HBAC
